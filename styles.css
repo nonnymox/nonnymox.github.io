@@ -1,52 +1,50 @@
-body{width: 100%;
-vh: 100vh;
-margin: 0;
-
-background-image: url(photo2.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-font-family: Tahoma;
-font-size: 16px;}
-
-h1,p{margin: 1em auto;
-  text-align: center;
-  colour: black;
-  }
-
-form {
-  width: 60vw;
-  max-width: 500px;
-  min-width: 300px;
-  margin: 0 auto;
-  padding-bottom: 2em;
+header {
+    text-align: center;
+    font-size: larger;
 }
 
-input,
-textarea,
-select {
-  margin: 10px 0 0 0;
-  width: 100%;
-  min-height: 2em;
-}
-.inline {width: unset;
-margin: 0 0.5em 0 0;
-  vertical-align: middle;
-}
-input, textarea {
-  background-color: #ffefaf;
-  border: 0.5px solid #0a0a23;
-  min-height: 2em;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    font-size: x-large;
+    padding-bottom: 20rem;
+    margin: 0 3rem;
 }
 
-label{display: block;
-margin: 1rem 0;}
-input[type="submit"] {
-  display: block;
-  height: 2em;
-  font-size: 1.1rem;}
+h1,
+.profession {
+    color: brown;
+}
 
-fieldset {margin-left:20%;
-color: #8b4513;
-margin-right: 20%;
-border: 2px solid #8b4513;
-background-color: #f5deb3;}
+img {
+    width: 10rem;
+}
+
+.bold,
+caption {
+    font-weight: bold;
+}
+
+li {
+    margin-bottom: 0.6rem;
+}
+
+div {
+
+    padding: 18rem 0rem 0rem 2rem;
+}
+
+#freecodecamp {
+    text-decoration: none;
+    color: brown;
+    display:block;
+    text-align:center;
+}
+
+h4,
+h1,
+h3, p:not([id="contactme"]), #freecodecamp {
+    padding-bottom: 20rem;
+}

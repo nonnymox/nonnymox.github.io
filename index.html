@@ -1,46 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
-    <title>Survey Form</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <h1 id= "title">Alison Wall Art Survey form</h1>
-    <p id= "description">Thank you for taking the time to help us improve the platform</p>
-   <form id= "survey-form" method="post" action='https://register-demo.freecodecamp.org'>
-      <label for="name" id="name-label">Name
-      <input id= "name" type= "text" placeholder="Enter your name" required></label>
-    <label for= "email" id="email-label">Email
-      <input id= "email" required placeholder= "Enter your email" type= "email"></label>
-    <label for="number" id="number-label">Age(optional)
-      <input placeholder="Age" id= "number" type= "number" type= "range" min= "10" max= "100"></label>
-      <label>Which option best describes your current role?
-      <select id="dropdown">
-      <option value="">Select one</option>
-      <option value=1>Student</option>
-      <option value=2>Self-employed</option>
-      <option value=3>Employed</option>
-      <option value=4>Prefer not to say</option></select>
-    </label>
-    <label>Would you refer Alison Wall Art to friends?</label>
-    <label for= "definitely"><input name="referral" type= "radio" value= "definitely" id="definitely" class= "inline"> Definitely</label>
-    <label for= "maybe"><input name="referral" type= "radio" value= "maybe" id= "maybe" class= "inline"> Maybe</label>
-    <label for= "notsure"><input type="radio" name= "referral" value= "notsure" id="notsure" class= "inline"> Not sure</label>
-    <label>What is your favorite feature of Alison Wall Art?
-      <select id= "favFeature">
-    <option value="">Select one</option>
-    <option value="1">Wallpapers</option>
-    <option value="2">Paint types</option>
-    <option value= "3">Roller types</option>
-    <option value= "4">Other</option></select>
-    <div><label for= "improvement">What would you like to see improved? (check all that apply)
-     </div><div><input type="checkbox" value="customerservice" id= "improvement" class= "inline">Customer Service
-     </div><input type= "checkbox" value="price" id="improvement" class= "inline">Price of supplies
-      <div/><input type= "checkbox" value="manpower" id="improvement" class= "inline">Painting Manpower
-      <label for="comments">Any comments or suggestions?
-        <textarea rows="3" cols="65" placeholder="Enter your comments here..."></textarea>
-      </label>
-</form>
-<input type= "submit" value="Submit" id= "submit">
-      </body>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Personal Portfolio</title>
+</head>
+
+<body id="body">
+    <div>
+        <header>
+            <h4>Hey, Thank you for checking this page out!</h4>
+            <h1>My name is Chukwunonso,</h1>
+            <h3 class="profession">I am a Painter and Web Designer</h3>
+        </header>
+
+        <section class="summary">
+            <p> I am a junior Web developer proficient in  the use of HTML, CSS and JavaScript. I incorporate these
+                technologies into the development of unique user interfaces and websites.
+            </p>
+        </section>
+        <section>
+            <p>I am skilled in color theory and I have an eye for asthetics which guarantees your satisfaction in my services. I have also collaborated with different User Experience teams and other Senior colleagues of mine to launch a few websites as shown in the bottom category.</p>
+            <a href="https://www.freecodecamp.org/certification/nonnymox/responsive-web-design#" id="freecodecamp">Click here to view some of my projects</a>
+            <!-- <ul>
+                <li><span class="bold">Painter - Alison Home Decor </span>| 2016 - Present</li>
+                <li><span class="bold">Intern - Atlassian Corporation</span> | 2022 - Present</li></ul> -->
+                <form>
+                    <fieldset>
+                        <h2>Contact Form:</h2>
+                        <label for="name">Name: </label>
+                        <input placeholder="Name" id="name" type="text" /><br>
+                        <label for="email">Email: </label>
+                        <input placeholder="Email" id="email" type="email" /><br>
+                        <textarea placeholder="Message"></textarea>
+                        <input type="Submit" value="SEND">
+                    </fieldset>
+                </form>
+        </section>
+        <section>
+            <footer>
+                <p id="contactme">Contact me for collaboration or enquiries on:</p>
+                <a target="_blank" href="https://www.linkedin.com/in/emmanuel-ighavbota-591bb5164/">LinkedIn</a><br>
+                <a href="https://www.instagram.com/nonnymox/" target="_blank">Instagram</a>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253790.44604460328!2d5.341675724217854!3d6.332360278686556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d36279cfacf1%3A0x84aa10c05758dfa0!2sBenin%20City%2C%20Edo!5e0!3m2!1sen!2sng!4v1677539581837!5m2!1sen!2sng" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p align="center">Copyright &copy; Emmanuel C. Ighavbota</p>
+            </footer>
+        </section>
+    </div>
+</body>
+
+</html>
