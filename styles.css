@@ -1,7 +1,7 @@
 :root {
     --main-white: #f0f0f0;
-    --main-red: #ffb640;
-    --main-blue: brown;
+    --main-red: #4089ff;
+    --main-blue: #ffb640;
     --main-gray: #303841;
   }
   /* #45567d */
@@ -85,10 +85,10 @@
   h1 {
     font-size: 6rem;
   }
-  .about {
+  #about {
     font-family: Arial, Helvetica, sans-serif;
     text-align:center;
-    font-size: 10rem;
+    font-size: 2rem;
   }
   
   h2 {
@@ -333,3 +333,4 @@
       text-align: center;
     }
   }
+  
