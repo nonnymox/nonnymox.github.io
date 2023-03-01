@@ -4,7 +4,6 @@
     --main-blue: #ffb640;
     --main-gray: #303841;
   }
-  /* #45567d */
   /* Base reset */
   * {
     margin: 0;
@@ -332,5 +331,8 @@
       flex-direction: column;
       text-align: center;
     }
+  }
+  #copyright {
+    color:var(--main-blue);
   }
   
